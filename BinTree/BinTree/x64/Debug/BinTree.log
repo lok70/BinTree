@@ -1,0 +1,26 @@
+﻿  Source.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\memory_resource(12): warning STL4038: The contents of <memory_resource> are available only with C++17 or later.
+C:\Users\kiiittto\Desktop\BinTree\BinTree\Source.cpp(43,14): warning C4244: инициализация: преобразование "double" в "size_t", возможна потеря данных
+C:\Users\kiiittto\Desktop\BinTree\BinTree\Source.cpp(373,8): warning C4834: удаление возвращаемого значения функции с атрибутом [[nodiscard]]
+C:\Users\kiiittto\Desktop\BinTree\BinTree\Source.cpp(381,8): warning C4834: удаление возвращаемого значения функции с атрибутом [[nodiscard]]
+C:\Users\kiiittto\Desktop\BinTree\BinTree\Source.cpp(392,16): warning C4834: удаление возвращаемого значения функции с атрибутом [[nodiscard]]
+C:\Users\kiiittto\Desktop\BinTree\BinTree\Source.cpp(400,16): warning C4834: удаление возвращаемого значения функции с атрибутом [[nodiscard]]
+C:\Users\kiiittto\Desktop\BinTree\BinTree\Source.cpp(128,30): warning C4930: Binary_Search_Tree<size_t,std::less<T>,std::allocator<size_t>> treeNull(void): функция с прототипом не вызвана (предполагалось определение переменной?)
+C:\Users\kiiittto\Desktop\BinTree\BinTree\Source.cpp(128,30): warning C4930:         with
+C:\Users\kiiittto\Desktop\BinTree\BinTree\Source.cpp(128,30): warning C4930:         [
+C:\Users\kiiittto\Desktop\BinTree\BinTree\Source.cpp(128,30): warning C4930:             T=size_t
+C:\Users\kiiittto\Desktop\BinTree\BinTree\Source.cpp(128,30): warning C4930:         ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\algorithm(500,19): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+  (компиляция исходного файла "Source.cpp")
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\algorithm(500,19):
+  контекст создания экземпляра шаблона (сначала самый старый)
+  	C:\Users\kiiittto\Desktop\BinTree\BinTree\Source.cpp(392,8):
+  	выполняется компиляция ссылки на экземпляр шаблон функции "__int64 std::count_if<std::_List_iterator<std::_List_val<std::_List_simple_types<_Ty>>>,bool(__cdecl *)(int)>(_InIt,_InIt,_Pr)"
+          with
+          [
+              _Ty=size_t,
+              _InIt=std::_List_iterator<std::_List_val<std::_List_simple_types<size_t>>>,
+              _Pr=bool (__cdecl *)(int)
+          ]
+  
+  BinTree.vcxproj -> C:\Users\kiiittto\Desktop\BinTree\BinTree\x64\Debug\BinTree.exe

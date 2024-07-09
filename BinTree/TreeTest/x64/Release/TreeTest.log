@@ -1,0 +1,29 @@
+﻿  Tests.cpp
+C:\Users\Alexandr\Desktop\BinTree\BinTree\BStree.h(148,31): warning C4996: 'std::iterator<std::input_iterator_tag,Binary_Search_Tree<int,std::less<int>,std::allocator<int>>::Node,ptrdiff_t,Binary_Search_Tree<int,std::less<int>,std::allocator<int>>::Node *,Binary_Search_Tree<int,std::less<int>,std::allocator<int>>::Node &>': warning STL4015: The std::iterator class template (used as a base class to provide typedefs) is deprecated in C++17. (The <iterator> header is NOT deprecated.) The C++ Standard has never required user-defined iterators to derive from std::iterator. To fix this warning, stop deriving from std::iterator and start providing publicly accessible typedefs named iterator_category, value_type, difference_type, pointer, and reference. Note that value_type is required to be non-const, even for constant iterators. You can define _SILENCE_CXX17_ITERATOR_BASE_CLASS_DEPRECATION_WARNING or _SILENCE_ALL_CXX17_DEPRECATION_WARNINGS to suppress this warning.
+  (компиляция исходного файла "Tests.cpp")
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(7073,45):
+   см. объявление "std::iterator"
+  C:\Users\Alexandr\Desktop\BinTree\BinTree\BStree.h(148,31):
+  контекст создания экземпляра шаблона (сначала самый старый)
+  	C:\Users\Alexandr\Desktop\BinTree\TreeTest\Tests.cpp(52,37):
+  	выполняется компиляция ссылки на экземпляр класс шаблон функции "std::reverse_iterator<Binary_Search_Tree<int,std::less<int>,std::allocator<int>>::iterator>"
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(1506,23):
+  	выполняется компиляция ссылки на шаблон переменной "bool random_access_iterator<Binary_Search_Tree<int,std::less<int>,std::allocator<int> >::iterator>"
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(807,34):
+  	выполняется компиляция ссылки на шаблон переменной "bool bidirectional_iterator<Binary_Search_Tree<int,std::less<int>,std::allocator<int> >::iterator>"
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(800,34):
+  	выполняется компиляция ссылки на шаблон переменной "bool forward_iterator<Binary_Search_Tree<int,std::less<int>,std::allocator<int> >::iterator>"
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(796,28):
+  	выполняется компиляция ссылки на шаблон переменной "bool input_iterator<Binary_Search_Tree<int,std::less<int>,std::allocator<int> >::iterator>"
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(785,26):
+  	выполняется компиляция ссылки на шаблон переменной "bool input_or_output_iterator<Binary_Search_Tree<int,std::less<int>,std::allocator<int> >::iterator>"
+  	C:\Users\Alexandr\Desktop\BinTree\BinTree\BStree.h(84,8):
+  	при компиляции класса "Binary_Search_Tree<int,std::less<int>,std::allocator<int>>::iterator"
+  
+LINK : warning LNK4075: не учитывается "/INCREMENTAL" из-за спецификации "/LTCG"
+     Создается библиотека C:\Users\Alexandr\Desktop\BinTree\x64\Release\TreeTest.lib и объект C:\Users\Alexandr\Desktop\BinTree\x64\Release\TreeTest.exp
+  Создание кода
+  Previous IPDB not found, fall back to full compilation.
+  All 907 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Создание кода завершено
+  TreeTest.vcxproj -> C:\Users\Alexandr\Desktop\BinTree\x64\Release\TreeTest.dll
