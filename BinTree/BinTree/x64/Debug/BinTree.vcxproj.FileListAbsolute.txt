@@ -1,2 +1,0 @@
-C:\Users\kiiittto\Downloads\BinTree\BinTree\x64\Debug\BinTree.exe
-C:\Users\kiiittto\Desktop\BinTree\BinTree\x64\Debug\BinTree.exe
